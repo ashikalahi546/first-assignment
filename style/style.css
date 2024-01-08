@@ -290,7 +290,7 @@ h3 {
   left: 7px;
 }
 .discount-tittle h2 {
-  color: #fff;
+  color: white;
   font-size: 60px;
   font-weight: 700;
   padding-top: 40px;
@@ -406,7 +406,6 @@ input {
   border: none;
   width: 210px;
   height: 65px;
-  color: #fff;
   font-size: 20px;
   font-weight: 600;
   border-radius: 0px 100px 100px 0px;
