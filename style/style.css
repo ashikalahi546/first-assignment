@@ -1,10 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  /* font-family: Merriweather; */
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: "Roboto Condensed", sans-serif;
 }
-body {
-  font-family: Inter;
+h1,
+h2,
+h3 {
+  font-family: Merriweather;
 }
+
 .container {
   width: 1320px;
   margin: auto;
@@ -43,6 +49,9 @@ body {
   line-height: 90px;
   padding-top: 20px;
 }
+.banner-tittle span {
+  font-family: Merriweather;
+}
 .primary {
   color: #f00;
 }
@@ -54,16 +63,16 @@ body {
   align-items: center;
   margin-top: 60px;
 }
-.categories h1 {
+.categories h4 {
   font-weight: 700;
-  font-size: 75px;
+  font-size: 80px;
 }
 .categories p {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
   margin-top: 30px;
 }
-.categories h3 {
+.categories h5 {
   font-weight: 700;
   font-size: 40px;
   margin-top: 10px;
@@ -103,7 +112,7 @@ body {
   height: 460px;
 }
 .banner-tittle-two h2 {
-  font-size: 60px;
+  font-size: 65px;
   color: white;
   font-weight: 900;
   line-height: 80px;
@@ -124,6 +133,9 @@ body {
   color: white;
   border: none;
   margin-top: 45px;
+}
+.banner-tittle-two span {
+  font-family: Merriweather;
 }
 
 .hotel-section {
@@ -198,7 +210,7 @@ body {
   border-radius: 50%;
   border: 15px solid #f00;
 }
-.new-year h2 {
+.new-year h4 {
   font-size: 48px;
   font-weight: 700;
 }
@@ -234,6 +246,11 @@ body {
 }
 .sale-tittle {
   color: #070211;
+  font-family: Merriweather;
+}
+.italic {
+  font-style: italic;
+  font-family: Merriweather;
 }
 .functional p {
   color: rgba(7, 2, 17, 0.6);
@@ -249,9 +266,9 @@ body {
 }
 .discount-section img {
   z-index: 1;
-  width: 550px;
+  width: 500px;
   position: relative;
-  top: -20px;
+  top: 15px;
   left: 60px;
 }
 .discount {
@@ -302,7 +319,7 @@ body {
 }
 .images {
   position: absolute;
-  bottom: -25px;
+  bottom: -80px;
 }
 
 .best-gift {
@@ -330,11 +347,9 @@ body {
   width: 100%;
   border: transparent 3.5px solid;
 }
-.Portfolio img:hover{
-border-color:gray;
-border-radius: 20px;
-
-
+.Portfolio img:hover {
+  border-color: gray;
+  border-radius: 20px;
 }
 
 .Portfolio {
@@ -406,7 +421,6 @@ input {
   background: #070211;
   height: 600px;
   margin-top: 80px;
-
 }
 .footer {
   padding: 105px 0px;
